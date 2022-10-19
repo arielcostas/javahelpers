@@ -1,4 +1,4 @@
-package dev.costas.helpers.range;
+package dev.costas.javahelpers.range;
 
 import static org.junit.jupiter.api.Assertions.*;
 

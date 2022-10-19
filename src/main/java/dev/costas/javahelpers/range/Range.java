@@ -1,4 +1,4 @@
-package dev.costas.helpers.range;
+package dev.costas.javahelpers.range;
 
 public class Range {
 	public static int[] of(int start, int end, int hop) {

@@ -1,5 +1,10 @@
 package dev.costas.javahelpers;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+
 /**
  * Generate a range of numbers.
  */
@@ -13,13 +18,25 @@ public class Range {
 	 * @return The range of numbers.
 	 */
 	public static int[] of(int start, int end, int step) {
-		int[] range = new int[end + 1 - start];
-		int value = start;
-		for (int i = 0; i <= end - start; i++) {
-			range[i] = value;
-			value += step;
+		ArrayList<Integer> list = new ArrayList<>();
+
+		int lower, higher, hop;
+		boolean inverted = false;
+
+		if (start < end) {
+			lower = start; higher = end;
+		} else {
+			higher = start; lower = end;
+			inverted = true;
 		}
-		return range;
+		hop = Math.abs(step);
+
+		for (int value = lower; value <= higher; value += hop) {
+			list.add(value);
+		}
+
+		if (inverted) Collections.reverse(list);
+		return list.stream().mapToInt(i -> i).toArray();
 	}
 
 	/**

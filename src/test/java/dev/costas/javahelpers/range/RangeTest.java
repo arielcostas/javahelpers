@@ -2,6 +2,7 @@ package dev.costas.javahelpers.range;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import dev.costas.javahelpers.Range;
 import org.junit.jupiter.api.Test;
 
 class RangeTest {

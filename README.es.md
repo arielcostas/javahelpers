@@ -12,29 +12,27 @@ Pequeña biblioteca de utilidades para Java.
 
 1. Añadir repositorio de costas.dev
 
-```xml
-
-<repositories>
-	<repository>
-		<id>costasdev</id>
-		<name>Ariel Costas' Maven repo</name>
-		<url>https://maven.costas.dev/main</url>
-	</repository>
-</repositories>
-```
+    ```xml
+    <repositories>
+        <repository>
+            <id>costasdev</id>
+            <name>Ariel Costas' Maven repo</name>
+            <url>https://maven.costas.dev/main</url>
+        </repository>
+    </repositories>
+    ```
 
 2. Añadir dependencia
 
-```xml
-
-<dependencies>
-	<dependency>
-		<groupId>dev.costas</groupId>
-		<artifactId>javahelpers</artifactId>
-		<version>VERSION</version>
-	</dependency>
-</dependencies>
-```
+    ```xml
+    <dependencies>
+        <dependency>
+            <groupId>dev.costas</groupId>
+            <artifactId>javahelpers</artifactId>
+            <version>VERSION</version>
+        </dependency>
+    </dependencies>
+    ```
 
 ## Instalar con Gradle
 
@@ -42,41 +40,41 @@ Pequeña biblioteca de utilidades para Java.
 
 1. Añadir repositorio de costas.dev
 
-```groovy
-repositories {
-	maven {
-		url 'https://maven.costas.dev/main'
-	}
-}
-```
+    ```groovy
+    repositories {
+        maven {
+            url 'https://maven.costas.dev/main'
+        }
+    }
+    ```
 
 2. Agregar dependencia
 
-```groovy
-dependencies {
-	implementation 'dev.costas:java-helpers:0.1.0'
-}
-```
+    ```groovy
+    dependencies {
+        implementation 'dev.costas:java-helpers:0.1.0'
+    }
+    ```
 
 ### Usando DSL Kotlin
 
 1. Añadir repositorio de costas.dev
 
-```kotlin
-repositories {
-	maven {
-		url = uri("https://maven.costas.dev/main")
-	}
-}
-```
+    ```kotlin
+    repositories {
+        maven {
+            url = uri("https://maven.costas.dev/main")
+        }
+    }
+    ```
 
 2. Agregar dependencia
 
-```kotlin
-dependencies {
-	implementation("dev.costas:java-helpers:VERSION")
-}
-```
+    ```kotlin
+    dependencies {
+        implementation("dev.costas:java-helpers:VERSION")
+    }
+    ```
 
 ## Licencia
 

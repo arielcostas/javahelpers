@@ -2,7 +2,8 @@ package dev.costas.javahelpers;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class Base64UtilTest {
 
@@ -24,7 +25,7 @@ class Base64UtilTest {
 
 	@Test
 	void test_EncodeNull() {
-		assertThrows(NullPointerException.class, () -> Base64Util.encode(null));
+		assertThrows(IllegalArgumentException.class, () -> Base64Util.encode(null));
 	}
 
 	@Test
@@ -45,6 +46,6 @@ class Base64UtilTest {
 
 	@Test
 	void test_DecodeNull() {
-		assertThrows(NullPointerException.class, () -> Base64Util.decode(null));
+		assertThrows(IllegalArgumentException.class, () -> Base64Util.decode(null));
 	}
 }

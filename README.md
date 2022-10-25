@@ -5,9 +5,10 @@ Tiny library of utilities for Java.
 ## Current utilities
 
 - **Base64Util**: Encode / decode strings in Base64.
+- **HexUtil**: Encode / decode strings in hexadecimal.
 - **Range**: Generate integer ranges.
 
-## Usage from Maven
+## Install via Maven
 
 1. Add costas.dev repository
 
@@ -33,7 +34,7 @@ Tiny library of utilities for Java.
 </dependencies>
 ```
 
-## Uso desde Gradle
+## Install via Gradle
 
 ### Using Groovy DSL
 

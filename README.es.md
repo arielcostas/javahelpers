@@ -5,9 +5,10 @@ Pequeña biblioteca de utilidades para Java.
 ## Utilidades actuales
 
 - **Base64Util**: Codificar / decodificar cadenas en Base64
+- **HexUtil**: Codificar / decodificar cadenas en hexadecimal
 - **Range**: Generar rangos de números enteros
 
-## Uso desde Maven
+## Instalar con Maven
 
 1. Añadir repositorio de costas.dev
 
@@ -35,7 +36,7 @@ Pequeña biblioteca de utilidades para Java.
 </dependencies>
 ```
 
-## Uso desde Gradle
+## Instalar con Gradle
 
 ### Usando DSL Groovy
 

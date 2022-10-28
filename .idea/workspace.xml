@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="29f00f46-7e79-47f6-982a-1c404242eff6" name="Changes" comment="Last attempt">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/testing.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/testing.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="enabledProfiles">
+      <list>
+        <option value="github" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2GZchq4TFpB5jF64pgKb9r4UTp4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_directory_selection": "C:/Users/a21arielcg/IdeaProjects/javahelpers/src/test/java/dev/costas/javahelpers",
+    "last_opened_file_path": "C:/Users/a21arielcg/IdeaProjects/javahelpers",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "Groovy compiler"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\a21arielcg\IdeaProjects\javahelpers" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="dev.costas.javahelpers" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="dev.costas.javahelpers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="javahelpers" />
+      <option name="PACKAGE_NAME" value="dev" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29f00f46-7e79-47f6-982a-1c404242eff6" name="Changes" comment="" />
+      <created>1666599669909</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666599669909</updated>
+      <workItem from="1666599671635" duration="4284000" />
+      <workItem from="1666604207312" duration="2206000" />
+      <workItem from="1666680017886" duration="2940000" />
+      <workItem from="1666942951648" duration="1689000" />
+      <workItem from="1666951921243" duration="180000" />
+      <workItem from="1666952254249" duration="2550000" />
+    </task>
+    <task id="LOCAL-00001" summary="Añadir README y licencia">
+      <created>1666600971684</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666600971684</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Utilidad Base64">
+      <created>1666600984839</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666600984839</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Mejoras a range">
+      <created>1666605037128</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666605037128</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Base64Util tests">
+      <created>1666680549820</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666680549820</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat:Use IllegalArgumentException for invalid arguments">
+      <created>1666681769290</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666681769290</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat:Hexadecimal handling">
+      <created>1666681805851</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666681805851</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Update README">
+      <created>1666681813841</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666681813841</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix:Clear IDE warnings">
+      <created>1666682122940</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666682122940</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Prepare initial release">
+      <created>1666682719371</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666682719371</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update action to send coverage to CodeClimate">
+      <created>1666953096450</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666953096450</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update action to send coverage to CodeClimate">
+      <created>1666953154299</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666953154299</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Changes to readme">
+      <created>1666953347313</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666953347313</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Coverage pls work">
+      <created>1666953540257</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666953540257</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fkn jacoco">
+      <created>1666953813934</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1666953813934</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Fkn gh actions">
+      <created>1666953952034</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1666953952034</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Last attempt">
+      <created>1666954099233</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666954099233</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Añadir README y licencia" />
+    <MESSAGE value="Utilidad Base64" />
+    <MESSAGE value="Mejoras a range" />
+    <MESSAGE value="Base64Util tests" />
+    <MESSAGE value="feat:Use IllegalArgumentException for invalid arguments" />
+    <MESSAGE value="feat:Hexadecimal handling" />
+    <MESSAGE value="Update README" />
+    <MESSAGE value="fix:Clear IDE warnings" />
+    <MESSAGE value="Prepare initial release" />
+    <MESSAGE value="Update action to send coverage to CodeClimate" />
+    <MESSAGE value="Changes to readme" />
+    <MESSAGE value="Coverage pls work" />
+    <MESSAGE value="Fkn jacoco" />
+    <MESSAGE value="Fkn gh actions" />
+    <MESSAGE value="Last attempt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Last attempt" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/javahelpers$Whole_project.ic" NAME="Whole project Coverage Results" MODIFIED="1666603175903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>dev.*</FILTER>
+    </SUITE>
+  </component>
+</project>

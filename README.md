@@ -2,6 +2,11 @@
 
 Tiny library of utilities for Java.
 
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) 
+[![Unit testing](https://github.com/arielcostas/javahelpers/actions/workflows/testing.yml/badge.svg)](https://github.com/arielcostas/javahelpers/actions/workflows/testing.yml)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/716e3c8a27b8dd466faa/test_coverage)](https://codeclimate.com/github/arielcostas/javahelpers/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/716e3c8a27b8dd466faa/maintainability)](https://codeclimate.com/github/arielcostas/javahelpers/maintainability)
+
 ## Current utilities
 
 - **Base64Util**: Encode / decode strings in Base64.

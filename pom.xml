@@ -6,11 +6,34 @@
 
 	<groupId>dev.costas</groupId>
 	<artifactId>javahelpers</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
+	<packaging>jar</packaging>
+
+	<name>Java Helpers</name>
+	<description>Tiny library of utilities for Java.</description>
+	<url>https://github.com/arielcostas/javahelpers</url>
+	<licenses>
+		<license>
+			<name>BSD 3-Clause License</name>
+			<url>https://github.com/arielcostas/javahelpers/blob/main/LICENSE</url>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<id>arielcostas</id>
+			<name>Ariel Costas</name>
+			<url>https://costas.dev</url>
+		</developer>
+	</developers>
+	<scm>
+		<connection>scm:git:https://github.com/arielcostas/javahelpers</connection>
+		<developerConnection>scm:git:ssh://git@github.com:arielcostas/javahelpers.git</developerConnection>
+		<url>https://github.com/arielcostas/javahelpers/tree/main</url>
+	</scm>
 
 	<properties>
-		<maven.compiler.source>18</maven.compiler.source>
-		<maven.compiler.target>18</maven.compiler.target>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
@@ -27,9 +50,29 @@
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<!-- JUnit 5 requires Surefire version 2.22.0 or higher -->
-				<version>2.22.2</version>
+				<artifactId>maven-source-plugin</artifactId>
+				<version>3.2.1</version>
+				<executions>
+					<execution>
+						<id>attach-sources</id>
+						<goals>
+							<goal>jar-no-fork</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<version>3.4.1</version>
+				<executions>
+					<execution>
+						<id>attach-javadocs</id>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 			<plugin>
 				<groupId>org.jacoco</groupId>
@@ -58,13 +101,28 @@
 				</executions>
 			</plugin>
 
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-gpg-plugin</artifactId>
+				<version>3.0.1</version>
+				<executions>
+					<execution>
+						<id>sign-artifacts</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>sign</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
 		</plugins>
 	</build>
 
 	<distributionManagement>
 		<repository>
 			<id>costasdev</id>
-			<url>https://maven.costas.dev/main</url>
+			<url>https://maven.costas.dev/releases</url>
 		</repository>
 	</distributionManagement>
 </project>

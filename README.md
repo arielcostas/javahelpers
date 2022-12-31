@@ -2,8 +2,9 @@
 
 Tiny library of utilities for Java.
 
-[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause) 
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![Unit testing](https://github.com/arielcostas/javahelpers/actions/workflows/testing.yml/badge.svg)](https://github.com/arielcostas/javahelpers/actions/workflows/testing.yml)
+[![Maven Central](https://img.shields.io/maven-central/v/dev.costas/javahelpers?style=for-the-badge)](https://search.maven.org/artifact/dev.costas/javahelpers)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/716e3c8a27b8dd466faa/test_coverage)](https://codeclimate.com/github/arielcostas/javahelpers/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/716e3c8a27b8dd466faa/maintainability)](https://codeclimate.com/github/arielcostas/javahelpers/maintainability)
 
@@ -15,71 +16,34 @@ Tiny library of utilities for Java.
 
 ## Install via Maven
 
-1. Add costas.dev repository
-
-    ```xml
-    <repositories>
-        <repository>
-            <id>costasdev</id>
-            <name>Ariel Costas' Maven repo</name>
-            <url>https://maven.costas.dev/main</url>
-        </repository>
-    </repositories>
-    ```
-
-2. Add dependency
-
-    ```xml
-    <dependencies>
-        <dependency>
-            <groupId>dev.costas</groupId>
-            <artifactId>javahelpers</artifactId>
-            <version>VERSION</version>
-        </dependency>
-    </dependencies>
-    ```
+```xml
+<dependencies>
+	<!-- ... -->
+	<dependency>
+		<groupId>dev.costas</groupId>
+		<artifactId>javahelpers</artifactId>
+		<version>VERSION</version>
+	</dependency>
+</dependencies>
+```
 
 ## Install via Gradle
 
 ### Using Groovy DSL
 
-1. Add costas.dev repository
-
-    ```groovy
-    repositories {
-        maven {
-            url "https://maven.costas.dev/main"
-        }
-    }
-    ```
-
-2. Add dependency
-
-    ```groovy
-    dependencies {
-        implementation 'dev.costas:java-helpers:0.1.0'
-    }
-    ```
+```groovy
+dependencies {
+	implementation 'dev.costas:javahelpers:VERSION'
+}
+```
 
 ### Using Kotlin DSL
 
-1. Add costas.dev repository
-
-    ```kotlin
-    repositories {
-        maven {
-            url = uri("https://maven.costas.dev/main")
-        }
-    }
-    ```
-
-2. Add dependency
-
-    ```kotlin
-    dependencies {
-        implementation("dev.costas:java-helpers:VERSION")
-    }
-    ```
+```kotlin
+dependencies {
+	implementation("dev.costas:javahelpers:VERSION")
+}
+```
 
 ## License
 
